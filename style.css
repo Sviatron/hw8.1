@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+:root {
+    --text-color: #000;
+    --axent-color: #21dbc2;
+}
+.list-title {
+      font-size: 36px;
+      font-style: italic;
+      color: var(--text-color);
+}
+.item {
+      font-style: oblique;
+      font-size: 24px;
+      color: var(--text-color);
+}
+.item:hover {
+    color: var(--axent-color);
+}
+.schedule:nth-child(even) {
+    background-color: orange;
+}
+.schedule:nth-child(odd) {
+    background-color: chocolate;
+}
